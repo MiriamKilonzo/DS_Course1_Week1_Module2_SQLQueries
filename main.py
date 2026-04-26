@@ -90,7 +90,7 @@ df_4_oldest =pd.read_sql("""
                         FROM dogs
                         ORDER BY age DESC
                         LIMIT 4)     
-                    ORDER BY breed  
+                     
                          """,conn2)
 
 # CodeGrade step0
